@@ -16,7 +16,7 @@ OutputDir: model_1/hls4ml_prj
 OutputPredictions: null
 Part: xcu250-figd2104-2L-e
 ProjectName: myproject
-Stamp: ba5d8093
+Stamp: acd39e19
 Version: 1.0.0
 WriterConfig:
   Namespace: null
