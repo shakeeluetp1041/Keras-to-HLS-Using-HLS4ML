@@ -1,0 +1,11 @@
+To fix error of batch_input_shape
+changes made in the core.py
+https://github.com/fastmachinelearning/hls4ml/issues/1135
+
+Possible fix
+
+    Go to this file: hls4ml/converters/keras/core.py
+    Edit the line 11 from layer['input_shape'] = keras_layer['config']['batch_input_shape'][1:] to layer['input_shape'] = keras_layer['config']['batch_shape'][1:]
+    Edit the line 21 from output_shape = keras_layer['config']['batch_input_shape'] to output_shape = keras_layer['config']['batch_shape']
+
+

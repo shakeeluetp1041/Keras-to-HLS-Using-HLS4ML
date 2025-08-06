@@ -1,0 +1,46 @@
+# Ignore the virtual environment
+hls4ml-env/
+.venv/
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code settings
+.vscode/
+
+# Python distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Coverage / testing
+.coverage
+.pytest_cache/
+.cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Environment and dependency files
+Pipfile.lock
+poetry.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git conflict files
+*.orig
+*.rej

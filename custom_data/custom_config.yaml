@@ -1,0 +1,17 @@
+# custom_config.yaml
+
+# Backend to use (Vitis here)
+Backend: Vitis
+
+# Clock period in nanoseconds (example: 5 ns -> 200 MHz)
+ClockPeriod: 5.0
+
+# Global precision setting for all layers (ap_fixed<16,6> as default example)
+Precision:
+  Default: ap_fixed<16,6>
+
+# Layer-wise configurations can be added here if needed
+# Example to override precision for specific layers:
+# Layers:
+#   layer_name:
+#     Precision: ap_fixed<8,4>
